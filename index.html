@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+  <script src="js/jquery-1.10.2.min.js"></script>
+  <script src="js/modernizr-2.7.1-csstransforms3d-canvas-touch.js"></script>
+  <script src="js/megapix-image.js"></script>
+  <script src="js/three.min.js"></script>
+  <script src="js/Detector.js"></script>
+  <script src="js/CSS3DRenderer.js"></script>
+  <script src="js/theta-viewer.min.js"></script>
+  <link rel="stylesheet" href="css/styles.css">
+  <title></title>
+</head>
+<body>
+  <div id="theta-viewer"></div>
+  <script>
+/*global jQuery */
+(function ($) {
+    'use strict';
+    $("#theta-viewer").createThetaViewer('img/R0010035.JPG');
+}(jQuery));
+  </script>
+</body>
+</html>
